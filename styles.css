@@ -1,0 +1,83 @@
+body {
+    background-image: url('fondoo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5;
+    }
+
+#contenedor-imagenes {
+    border: 5px solid rgb(255, 63, 5);
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+    }
+    #coche1 {
+        top: 0;
+        left: 0;
+        height: 100px;
+    width: auto;
+    background: transparent;
+    position: absolute;
+        }
+        #coche2 {
+            top: 0;
+            right: 0;
+            height: 100px;
+        width: auto;
+        background: transparent;
+        position: absolute;
+            }
+            #coche3 {
+                bottom: 0;
+                left: 0;
+                height: 75px;
+            width: auto;
+            background: transparent;
+            position: absolute;
+                }
+                #coche4 {
+                    bottom: 0;
+    right: 0;
+                    height: 75px;
+                width: auto;
+                background: transparent;
+                position: absolute;
+                    }
+
+    img {
+    height: 75px;
+    width: auto;
+    background: transparent;
+    position: absolute;
+    }
+
+    #car1-imagen {
+    top: 0;
+    left: 0;
+    }
+
+    #car2-imagen {
+    top: 0;
+    right: 0;
+    }
+
+    #carl3 {
+    bottom: 0;
+    left: 0;
+    }
+
+    #car4-imagen {
+    bottom: 0;
+    right: 0;
+    }
+
+    #contenedor-titulo {
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+
+    #contenedor-titulo h1 {
+    margin: 0;
+    }
